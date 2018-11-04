@@ -58,7 +58,7 @@ public class MyGdxGame extends ApplicationAdapter {
         // clear screen
         GdxUtils.clearScreen();
 
-        // Link and center camera
+        // Set the projection matrix (combined projection and view matrix)
         batch.setProjectionMatrix(viewport.getCamera().combined);
 
         // render image
