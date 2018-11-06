@@ -50,6 +50,7 @@ public class MyGdxGame extends ApplicationAdapter {
         // it if the window size changes.
         viewport.update(width, height);
 
+        // prints xPPU and yPPU after resizing
         ViewportUtils.debugPixelPerUnit(viewport);
     }
 
